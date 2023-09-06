@@ -10,8 +10,8 @@ const PhoneAuth = (props) => {
             signInOptions: [
                 firebase.auth.PhoneAuthProvider.PROVIDER_ID
               ],
-              signInSuccessUrl: "https://efty.me/",
-              privacyPolicyUrl: "/"
+              signInSuccessUrl: "https://web.programming-hero.com/home/level2/",
+              privacyPolicyUrl: '/'
         })
     })
   return (
